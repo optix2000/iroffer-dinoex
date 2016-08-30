@@ -86,3 +86,13 @@ z.sh
 
 ## to hinder the import of a .cvsignore file
 .cvsignore
+
+# Ignore debian package generation files
+iroffer_chroot
+o.en
+debian/iroffer-dinoex/
+debian/.debhelper
+debian/iroffer-dinoex.debhelper.log
+debian/files
+debian/debhelper-build-stamp
+debian/iroffer-dinoex.substvars
